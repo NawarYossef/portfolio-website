@@ -44,4 +44,12 @@ h5 {
   font-size: 1.1em;
 }
 
-footer {}
+.footer {
+  padding: 40px 20px;
+  width: 100%;
+  background: #252529;
+}
+
+#contact {
+  margin-bottom: 30px;
+}

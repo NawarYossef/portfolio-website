@@ -52,7 +52,7 @@ body h2 {
 }
 
 .bg-primary {
-  background-color: #707093 !important;
+  background-color: #212127 !important;
 }
 
 .bg-dark {
@@ -60,13 +60,16 @@ body h2 {
 }
 
 body .text-white {
-  color: #212529 !important;
   font-weight: bold !important;
   padding: 20px 0px;
+  color: #2e7de6 !important;
 }
 
-body .about-me {
-  padding-bottom: 30px;
+#portfolio {
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .text-faded {
@@ -157,7 +160,7 @@ body .about-me {
 
 .about-me-text {
   font-size: 1.3em;
-  margin-bottom: 80px !important;
+  margin-bottom: 40px !important;
 }
 
 body .tools {

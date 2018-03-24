@@ -77,7 +77,7 @@ particlesJS("particles-js", {
         "mode": "grab"
       },
       "onclick": {
-        "enable": false,
+        "enable": true,
         "mode": "push"
       },
       "resize": true
