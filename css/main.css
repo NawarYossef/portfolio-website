@@ -1,0 +1,35 @@
+.projects {
+  color: #6464f2;
+}
+
+.project-wrapper-first {
+  padding-top: 30px;
+}
+
+.project-name {
+  color: #f05f40 !important;
+}
+
+.link-to-project {
+  display: block;
+  width: 50%;
+  margin: 0 auto 10px auto;
+}
+
+h5 {
+  font-size: 1rem;
+  color: #2e7de6;
+}
+
+.link-to-project:hover {
+  text-decoration-color: #2e7de6;
+}
+
+h5 {
+  width: 100%;
+  margin: 0 auto 0px auto
+}
+
+.contacts-wrapper {
+  margin: 0 auto;
+}
