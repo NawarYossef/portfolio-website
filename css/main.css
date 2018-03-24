@@ -12,7 +12,6 @@
 
 .link-to-project {
   display: block;
-  width: 50%;
   margin: 0 auto 10px auto;
 }
 
@@ -27,7 +26,7 @@ h5 {
 
 h5 {
   width: 100%;
-  margin: 0 auto 0px auto
+  margin: 0 auto 0px auto;
 }
 
 .contacts-wrapper {
@@ -45,11 +44,34 @@ h5 {
 }
 
 .footer {
-  padding: 40px 20px;
+  padding: 20px 20px;
   width: 100%;
   background: #252529;
 }
 
 #contact {
   margin-bottom: 30px;
+}
+
+.social-media-link {
+  text-decoration: none !important;
+  color: #f0e5e3;
+}
+
+.social-media-link {
+  -webkit-transition: color 0.7s ease-out;
+  -moz-transition: color 0.7s ease-out;
+  -o-transition: color 0.7s ease-out;
+  -ms-transition: color 0.7s ease-out;
+  transition: color 0.7s ease-out;
+}
+
+.social-media-link:hover {
+  cursor: pointer;
+  color: #6464f2 !important;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #ffffff;
 }

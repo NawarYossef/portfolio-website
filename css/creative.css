@@ -85,7 +85,6 @@ body .text-white {
   margin: 30px auto 0 auto !important;
   font: normal 1.2rem "Open Sans", sans-serif;
   text-align: center;
-  text-indent: 30px;
 }
 
 .project-wrapper {
@@ -134,7 +133,7 @@ body .text-white {
 }
 
 .project-button {
-  padding: 5px 50px;
+  /* padding: 5px 50px; */
   border-radius: 3px;
   border: solid 2px #ffaa97;
   color: rgba(80, 75, 75, 0.986);
@@ -164,7 +163,6 @@ body .text-white {
 }
 
 body .tools {
-  width: 70%;
   margin: 0 auto 30px auto !important;
   font: normal 1.2rem "Open Sans", sans-serif;
 }
@@ -546,7 +544,6 @@ header.masthead p {
   }
 
   .project-button {
-    padding: 5px 20px;
     font-size: 1rem;
   }
 }
