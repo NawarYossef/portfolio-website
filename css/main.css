@@ -33,3 +33,15 @@ h5 {
 .contacts-wrapper {
   margin: 0 auto;
 }
+
+.contact-me-text {
+  font-size: 1.3em;
+  margin-bottom: 20px !important;
+}
+
+.email {
+  color: #007bff;
+  font-size: 1.1em;
+}
+
+footer {}
