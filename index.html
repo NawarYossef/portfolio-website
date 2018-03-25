@@ -64,7 +64,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto header-text-wrapper">
               <h2 class="my-name">Hi! I’m Nawar Yossef</h2>
-              <p class="text-faded mb-5">
+              <p class="text-faded mb-3 intro-text">
                 I'm a fullstack Javascript developer from Atlanta, Georgia. I use web technologies to make awesome applications.</p>
               <p>MongoDB | Express | React | Node</p>
               <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">CONTACT ME</a>
@@ -209,7 +209,8 @@
       </div>
     </div>
     <p class="text-muted mb-0 col-md-6 project-description reveal-5">
-        CoderQuiz is ideal for programmers who wish to improve their coding knowledge. A front-end application with multiple quizzes covering topics in HTML, CSS, JavaScript and advanced programming topics.
+      CoderQuiz is ideal for programmers who wish to improve their coding knowledge. A front-end application with multiple quizzes
+      covering topics in HTML, CSS, JavaScript and advanced programming topics.
     </p>
   </section>
 
@@ -270,15 +271,18 @@
   <!-- Custom scripts for this template -->
   <script src="./js/creative.min.js"></script>
   <script>
-    window.sr = ScrollReveal();
-
+    $( document ).ready(function() {
+      window.sr = ScrollReveal();
+      if ($(window).width() >= 780) {
+      sr.reveal('.reveal', { duration: 1200 });
+      sr.reveal('.reveal-1', { duration: 1200 });
+      sr.reveal('.reveal-2', { duration: 1200 });
+      sr.reveal('.reveal-3', { duration: 1400 });
+      sr.reveal('.reveal-4', { duration: 1600 });
+      sr.reveal('.reveal-5', { duration: 1800 });
+    }
+});
     // sr.reveal('.about-me', { duration: 1400 });
-    sr.reveal('.reveal', { duration: 1200 });
-    sr.reveal('.reveal-1', { duration: 1200 });
-    sr.reveal('.reveal-2', { duration: 1200});
-    sr.reveal('.reveal-3', { duration: 1400});
-    sr.reveal('.reveal-4', { duration: 1600 });
-    sr.reveal('.reveal-5', { duration: 1800 });
   </script>
 
 </body>
