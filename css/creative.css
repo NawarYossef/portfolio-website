@@ -714,6 +714,13 @@ header.masthead p {
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .secondary-img {
+    width: 13%;
+    position: absolute;
+    top: 41%;
+    right: 15%;
+    bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1440px) and (max-width: 2560px) {
