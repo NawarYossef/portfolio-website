@@ -439,25 +439,9 @@ header.masthead p {
   /* z-index: 1; */
 }
 
-.my-name {
-  color: #fff;
-  font-size: 3rem;
-  margin: 0 auto;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 100%;
-  animation: type 4s steps(60, end);
-}
-
 .mb-5,
 .my-5 {
   margin-bottom: 0px !important;
-}
-
-@keyframes type {
-  from {
-    width: 0;
-  }
 }
 
 .my-auto {
@@ -486,7 +470,7 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #f59638;
+  background-color: #d4812f;
   border-color: #f05f40;
 }
 
