@@ -249,7 +249,7 @@
           <a href="https://www.facebook.com/nawar.yossef" target="_blank" class="col-lg-4 social-media-link">
             <span class="fa fa-facebook-square fa-3x connectLinks cont-link" style=""></span>
           </a>
-          <p class="copyright">copyright
+          <p class="copyright">
             <i class="fa fa-copyright"></i>
             <span>2018</span> Nawar Yossef </p>
         </div>
@@ -271,20 +271,36 @@
   <!-- Custom scripts for this template -->
   <script src="./js/creative.min.js"></script>
   <script>
-    $( document ).ready(function() {
+    $(document).ready(function () {
       window.sr = ScrollReveal();
       if ($(window).width() >= 780) {
-      sr.reveal('.reveal', { duration: 1200 });
-      sr.reveal('.reveal-1', { duration: 1200 });
-      sr.reveal('.reveal-2', { duration: 1200 });
-      sr.reveal('.reveal-3', { duration: 1400 });
-      sr.reveal('.reveal-4', { duration: 1600 });
-      sr.reveal('.reveal-5', { duration: 1800 });
-    }
-});
+        sr.reveal('.reveal', { duration: 1200 });
+        sr.reveal('.reveal-1', { duration: 1200 });
+        sr.reveal('.reveal-2', { duration: 1200 });
+        sr.reveal('.reveal-3', { duration: 1400 });
+        sr.reveal('.reveal-4', { duration: 1600 });
+        sr.reveal('.reveal-5', { duration: 1800 });
+      }
+    });
     // sr.reveal('.about-me', { duration: 1400 });
   </script>
+  <style>
+    .my-name {
+      color: #fff;
+      font-size: 3rem;
+      margin: 0 auto;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      animation: type 4s steps(60, end);
+    }
 
+    @keyframes type {
+      from {
+        width: 0;
+      }
+    }
+  </style>
 </body>
 
 </html>
