@@ -500,7 +500,7 @@ header.masthead p {
   }
 
   .my-name {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     animation: type 2s steps(60, end);
   }
 
@@ -539,7 +539,7 @@ header.masthead p {
   }
 
   .my-name {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     animation: type 2s steps(60, end);
   }
 
@@ -579,7 +579,7 @@ header.masthead p {
   }
 
   .my-name {
-    font-size: 2rem;
+    font-size: 2rem !important;
     animation: type 2s steps(60, end);
   }
 
